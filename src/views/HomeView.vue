@@ -2,9 +2,11 @@
   <div>
     <div id="top">
       <swiper class="swiper" :slides-per-view="1" :space-between="50" @swiper="onSwiper" @slideChange="onSlideChange">
-        <swiper-slide style="background-image:url(/top1.jpg)" class="slide">
-          <swiper-slide style="background-image:url(/top2.jpg)" class="slide">
-            <swiper-slide style="background-image:url(/top3.jpg)" class="slide"></swiper-slide>
+        <swiper-slide style="background-image:url(/porfolio/top1.jpg)" class="slide">
+          <swiper-slide style="background-image:url(/porfolio/top2.jpg)" class="slide">
+            <swiper-slide style="background-image:url(/porfolio/top3.jpg)" class="slide">
+
+            </swiper-slide>
           </swiper-slide>
           <div class="header"> 명지전문대 정보통신공학과 엄정식
           </div>
@@ -12,13 +14,13 @@
 
 
         <swiper-slide class="slide">Slide 2</swiper-slide>
-        <swiper-slide style="background-image:url(/top2.jpg)" class="slide">
+        <swiper-slide style="background-image:url(/porfolio/top2.jpg)" class="slide">
           <div class="header"> 명지전문대 정보통신공학과 엄정식
           </div>
         </swiper-slide>
 
         <swiper-slide class="slide">Slide 3</swiper-slide>
-        <swiper-slide style="background-image:url(/top3.jpg)" class="slide">
+        <swiper-slide style="background-image:url(/porfolio/top3.jpg)" class="slide">
           <div class="header"> 명지전문대 정보통신공학과 엄정식
           </div>
         </swiper-slide>
@@ -82,8 +84,7 @@ export default defineComponent({
     modvePage(path) {
       this.$router.push(path)
     }
-  },
-  name: 'HomeVeiw',
+  }
 });
 </script>
 
